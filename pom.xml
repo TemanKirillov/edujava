@@ -9,6 +9,8 @@
 	<version>1.0-SNAPSHOT</version>
 
 	<dependencies>
+
+		<!-- смотри тесты в src/test/java/tech/onehmh/edujava/jackson -->
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -16,11 +18,20 @@
 			<version>2.8.7</version>
 		</dependency>
 
+		<!-- смотри тесты в src/test/java/tech/onehmh/edujava/guava -->
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
 			<groupId>com.google.guava</groupId>
 			<artifactId>guava</artifactId>
 			<version>20.0</version>
+		</dependency>
+
+		<!-- смотри тесты в src/test/java/tech/onehmh/edujava/log4j -->
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.14</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -52,5 +63,13 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>centralMaven</id>
+			<name>Maven Repository Switchboard</name>
+			<url>https://repo1.maven.org/maven2</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
 
 </project>
