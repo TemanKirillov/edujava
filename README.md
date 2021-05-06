@@ -10,3 +10,4 @@
 ### Список охватываемых тем:
 * сериализация с [Jackson](https://github.com/FasterXML/jackson)
 * логирование с [Log4j](https://logging.apache.org/log4j/1.2/)
+* кэширование с [Ehcache 3](https://www.ehcache.org/)
