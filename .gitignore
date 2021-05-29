@@ -1,5 +1,6 @@
 .idea
 edujava.iml
 target
-log
-cache
+/log/
+/cache/
+/h2jdbc/
